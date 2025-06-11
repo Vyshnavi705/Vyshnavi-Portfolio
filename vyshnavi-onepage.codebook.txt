@@ -1,0 +1,170 @@
+# vyshnavi-onepage.codebook
+
+@metadata
+name: Vyshnavi Portfolio
+description: A sleek, whitespace-heavy one-page portfolio for Vyshnavi Devi using Swiss Design principles and components from 21st.dev
+audience: HR recruiters, tech companies, CEOs
+theme: white background, charcoal text, pastel accent (blue or teal)
+library: 21st.dev
+
+---
+
+@hero
+layout: two-col
+title: Gonugunta Vyshnavi Devi
+subtitle: Software Engineer | Java & Full Stack Developer
+image: avatar-or-placeholder
+cta:
+  - label: 📄 Download Resume
+    action: link
+    href: /Vyshnavi-Resume.pdf
+    style: solid
+  - label: ✉️ Get in Touch
+    action: scroll-to
+    target: #contact
+    style: outline
+badge: Open to Work
+background: white
+spacing: xl
+
+---
+
+@about
+layout: centered
+title: About Me
+text: >
+  I'm a software engineering intern with hands-on experience in Java, full stack web development, and machine learning. I'm passionate about turning real-world problems into scalable code. I thrive in fast-paced environments and am always eager to learn and grow.
+
+background: white
+text-style: prose
+spacing: lg
+
+---
+
+@projects
+layout: cards
+title: Featured Projects
+card-style: vertical
+cards:
+  - title: 🧠 cGAN for Radiograph to 3D
+    org: Bist Technologics
+    date: Mar–Apr 2024
+    description: >
+      Built a Conditional GAN to convert 2D radiographs into 3D medical volumes. Trained and evaluated on paired datasets to improve clinical diagnosis and planning.
+  - title: 📈 Bitcoin Price Prediction
+    org: Blackbuck Engineers
+    date: Jun–Sep 2022
+    description: >
+      Applied ARIMA for Bitcoin forecasting. Minimized MSE and analyzed the strengths of traditional models vs ML for financial data.
+
+spacing: xl
+
+---
+
+@experience
+layout: timeline
+title: Internships
+items:
+  - title: Java Full Stack Intern
+    org: KodNest Technologies
+    date: Mar 2024 – Present
+    details:
+      - Trained in Java SE/EE, HTML, CSS, SQL
+      - Built full-stack e-commerce app “Shop Nest”
+      - Gained experience in debugging, deployment, and source control
+  - title: ML Engineer Intern
+    org: Blackbuck Engineers
+    date: Jun – Sep 2022
+    details:
+      - Built image detection model (85% accuracy)
+      - Developed stock prediction for Tesla market
+      - Analyzed post-sale impact in used-car market
+
+accent: teal
+spacing: xl
+
+---
+
+@education
+layout: minimal-timeline
+title: Education
+items:
+  - level: B.Tech in Information Technology
+    institution: JNTU Kakinada
+    gpa: 8.1 CGPA
+    year: 2024
+  - level: XII – Mathematics
+    institution: Sri Chaitanya Jr College
+    gpa: 9.65 GPA
+    year: 2020
+  - level: X – Mathematics
+    institution: Ganga High School
+    gpa: 10.0 GPA
+    year: 2018
+
+spacing: lg
+
+---
+
+@skills
+layout: badges
+title: Technical Skills
+categories:
+  - label: Programming Languages
+    items: [Java, Python, C, C++, HTML, CSS]
+  - label: Database
+    items: [MySQL]
+  - label: Tools & IDEs
+    items: [VS Code, GitHub, MS Excel, PyCharm, Eclipse]
+
+display: grouped
+badge-style: pastel
+
+---
+
+@publication
+layout: highlight
+title: Research Publication
+highlight:
+  title: Conditional GAN for Radiograph Conversion
+  link: https://www.jnaonu.com/Vol.%2015,%20Issue.%2001,%20January-June%20:%202024/72_online.pdf
+  description: Published paper on deep learning model transforming 2D radiographs into 3D models for medical diagnostics.
+
+background: soft-blue
+spacing: lg
+
+---
+
+@contact
+layout: form + info
+title: Let’s Connect
+description: I'm actively seeking full-time roles in software engineering, machine learning, and full stack development.
+form:
+  name:
+    label: Full Name
+    placeholder: Enter your name
+    validation: required
+  email:
+    label: Email
+    placeholder: yourname@example.com
+    validation: required|email
+  message:
+    label: Message
+    placeholder: Write your message here
+    validation: required|min:20
+  submit:
+    label: Send Message
+    style: solid
+info:
+  email: gonuguntavyshu7@gmail.com
+  phone: +91 9381403573
+  linkedin: https://linkedin.com/in/vyshnavi%20devi%20gonugunta
+
+spacing: xl
+
+---
+
+@footer
+layout: minimal
+text: © 2025 Vyshnavi Devi. Built with love & coffee ☕
+theme: soft-gray
